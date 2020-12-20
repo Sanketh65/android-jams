@@ -1,0 +1,14 @@
+fun main() {
+    println("First number: ")
+    val x=Integer.valueOf(readLine())
+    println("Second number: ")
+    val y=Integer.valueOf(readLine())
+    println("Third number: ")
+    val z=Integer.valueOf(readLine())
+    var n:Int=z
+    if (x>=y && x>=z)
+	n=x
+    if (y>=x && y>=z)
+	n=y
+    println("The largest number is $n")
+}

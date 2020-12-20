@@ -1,0 +1,10 @@
+fun main()
+{
+    val x=Integer.valueOf(readLine())
+    if(x>0)
+        println("Positive number")
+    else if(x<0)
+        println("Negatuve number")
+    else
+        println("0 is neither positive nor negative")
+}

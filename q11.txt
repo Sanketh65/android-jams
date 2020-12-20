@@ -1,0 +1,10 @@
+fun main() {
+    val n=153
+    var x:Int = n/100
+    var y:Int = (n%100-(n%10))/10
+    var z:Int = n%10
+    if(((x*x*x) + (y*y*y) + (z*z*z))==n)
+        print("It is an Armstrong number")
+    else
+        print("It is not an Armstrong number")
+}

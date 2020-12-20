@@ -1,0 +1,10 @@
+fun main() {
+    var n=5
+    var i : Int
+    var ans : Int = 1
+    for(i in 1..n){
+        ans=ans*i
+    }
+    println("$ans")
+        
+}

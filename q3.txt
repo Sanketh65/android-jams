@@ -1,0 +1,7 @@
+fun main() {
+    print("Enter a number: ")
+    val n=Integer.valueOf(readline())
+    if(n<0)
+	n=n*(-1)
+    println("Absolute value = $n")
+}

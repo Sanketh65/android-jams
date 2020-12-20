@@ -1,0 +1,9 @@
+fun main() {
+   var n=11
+    var i : Int
+    var ans=0
+    for(i in 0..n step 2){
+        ans=ans+i
+    }
+    println("$ans")
+}

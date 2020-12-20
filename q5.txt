@@ -1,0 +1,14 @@
+fun main() {
+    println("Enter length of first side: ")
+    val x=Integer.valueOf(readLine())
+    println("Enter length of second side: ")
+    val y=Integer.valueOf(readLine())
+    println("Enter length of third side: ")
+    val z=Integer.valueOf(readLine())
+    if(x==y && y==z)
+	println("It is an equilateral triangle")
+    if(x==y || x==z || y==z)
+	println("It is an isosceles triangle")
+    else
+	println("It is a scalene triangle")
+}
